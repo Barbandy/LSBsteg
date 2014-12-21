@@ -104,7 +104,7 @@ def Extracting(fname):
                 if(binary[-16:] == '1111111111111110'):
                     return bin2str(binary[:-16])
         return bin2str(binary)
-	return  None
+    return  None
 	
 	
 def main():
